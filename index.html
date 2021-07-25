@@ -450,14 +450,21 @@
             <label for="footer-email" class="footer-email-title"
               >Подпишитесь на рассылку</label
             >
-            <input
-              id="footer-email"
-              name="footer-email"
-              type="email"
-              class="footer-email-input"
-              placeholder="E-mail"
-            />
-            <button class="footer-email-btn">Подпишись</button>
+            <div class="formAndBtn-wrapper">
+              <input
+                id="footer-email"
+                name="footer-email"
+                type="email"
+                class="footer-email-input"
+                placeholder="E-mail"
+              />
+              <button class="footer-email-btn" type="submit">
+                Подписаться
+                <svg class="icon-send">
+                  <use href="./images/icons/sprite.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>
