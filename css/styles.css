@@ -995,7 +995,8 @@ body {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-btn:hover {
+.modal-close-btn:hover,
+.modal-close-btn:focus {
   fill: var(--focus-color);
 }
 
