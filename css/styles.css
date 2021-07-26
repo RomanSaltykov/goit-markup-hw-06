@@ -1136,7 +1136,7 @@ body {
   border-radius: 2px;
   background-color: var(--focus-color);
   background-repeat: no-repeat;
-  background-image: url('/icomoon/SVG/checked.svg');
+  background-image: url('../icomoon/SVG/checked.svg');
   background-position: center;
 }
 
